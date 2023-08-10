@@ -5,15 +5,16 @@ import Footer from  '../components/Footer'
 import Home from '../components/home/Home'
 import Logout from '../components/logout/Logout';
 import ProductDetails from '../productdetails/ProductDetails';
+import  Logup from '../components/Login/Logup'
 function RouteLayout() {
   return (
    <>
     <Router>
        <Header/>
        <Routes >
-       <Route path="/" element={<Home/>} />
-       <Route path="/ecommerce" element={<Home/>} />
-       <Route path="/logout" element={<Logout/>} />
+       <Route path="/" element={<Logup/>} />
+       <Route path="/ecommerce" element={<Logup/>} />
+  
        <Route path="/product/:id" element={<ProductDetails/>} />
         
         

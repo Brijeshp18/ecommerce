@@ -18,7 +18,7 @@
   
     
 }
-.product button {
+.product .product-btn {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -32,6 +32,10 @@
     text-align: center;
    
 }
+
+
+
+
 .product button:hover{
     background-color: #0069d9;
 }
@@ -85,4 +89,25 @@
       grid-template-columns: 1fr;
    
     }
+  }
+
+  .pagination{
+    padding: 20px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .pagination span{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    
+  }
+  .pagination__selected{
+    background-color: rgb(205, 189, 189);
+    color: #020304;
+    font-weight: 500;
+  }
+  .pagination__disable{
+    opacity: 0;
   }
