@@ -13,7 +13,7 @@ function RouteLayout() {
        <Header/>
        <Routes >
        <Route path="/" element={<Logup/>} />
-       <Route path="/ecommerce" element={<Logup/>} />
+       <Route path="/techflix-store" element={<Logup/>} />
   
        <Route path="/product/:id" element={<ProductDetails/>} />
         
