@@ -24,10 +24,10 @@ function ProductDetails() {
       <div className="info">
         <h2 className="title">{productdetails.title}</h2>
         <p className="description">{productdetails.description}</p>
-        <p className="pricedetails">${productdetails.price}</p>
-        <button className="cart" onClick={buynowHandle}>Buy Now</button>
+        <p className="pricedetails">₹{productdetails.price}</p>
+        <span className="buyspan"><button className="cart" onClick={buynowHandle}>Buy Now</button></span>
         <Link to="/">
-          <button className="home">Go Back to Home</button>
+        <span className="homespan"><button className="home">Go Back to Home</button></span> 
         </Link>
       </div>
     </div>
